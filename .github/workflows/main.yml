@@ -2,6 +2,6 @@ name: Demo
 on: [push]
 jobs:
   Start:
-    runs-om: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Welcome to BGJUG."

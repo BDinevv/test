@@ -1,0 +1,7 @@
+name: Build with java and maven
+on: [push]
+jobs:
+  build-with-maven:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello"
